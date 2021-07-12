@@ -1,7 +1,7 @@
 {
-  "name": "wi-notification",
+  "name": "@revotechuet/wi-notification",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Email",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,6 @@
   "dependencies": {
     "config": "^3.3.6",
     "nodemailer": "^6.6.2"
-  }
+  },
+  "devDependencies": {}
 }
