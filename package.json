@@ -1,6 +1,6 @@
 {
   "name": "@revotechuet/wi-notification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "- Email",
   "main": "index.js",
   "scripts": {
