@@ -1,0 +1,23 @@
+{
+  "name": "wi-notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revotechuet/wi-notification.git"
+  },
+  "author": "hoangbd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revotechuet/wi-notification/issues"
+  },
+  "homepage": "https://github.com/revotechuet/wi-notification#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "nodemailer": "^6.6.2"
+  }
+}
