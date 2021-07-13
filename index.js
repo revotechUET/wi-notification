@@ -4,7 +4,7 @@ class wiNotification {
     constructor(config) {
         this.config = config
     }
-    sendNotification(options) {
+    sendMail(options) {
         if (!options.to) return console.log("No destination email");
         if (!options.messageHtml) return console.log("No message");
         if (!options.subject) return console.log("No subject");
@@ -25,6 +25,13 @@ class wiNotification {
                 console.log("Send notification mail done ", resp);
             }
         })
+    }
+    sendTelegramMessage(options) {
+        return;
+    }
+
+    sendSlackMessage(options) {
+
     }
 }
 
