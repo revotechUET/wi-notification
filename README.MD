@@ -17,7 +17,11 @@ npm install @revotechuet/wi-notification@latest
 const wiNotification = require('./index');
 let wiNoti = new wiNotification({
     "user": "smtpuser",
-    "password": "smtppasswd"
+    "password": "smtppasswd",
+    "telegram": {
+        "bot_token": "bot:token",
+        "chat_id": "123456789"
+    }
 });
 ```
 ### Email
@@ -33,7 +37,7 @@ wiNoti.sendMail({
 ### Telegram
 ```javascript
 wiNoti.sendTelegramMessage({
-
+    text: "This is test text"
 })
 ```
 ### Slack
