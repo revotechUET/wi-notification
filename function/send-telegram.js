@@ -9,11 +9,11 @@ async function sendTelegram(data, config, callback) {
       `https://api.telegram.org/bot${bot_token}/sendMessage?chat_id=${chat_id}&text=${content}&parse_mode=html`
     )
     .then((res) => {
-      console.log(res.data);
+      console.log("Telegram message sent");
       callback(null, res.data);
     })
     .catch((err) => {
-      console.log(err);
+      // console.log(err);
       callback(err, null);
     });
 }
