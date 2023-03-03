@@ -6,7 +6,7 @@ async function sendTelegram(data, config, callback) {
   const content = data.text;
   axios
     .get(
-      `https://api.telegram.org/bot${bot_token}/sendMessage?chat_id=${chat_id}&text=${content}`
+      `https://api.telegram.org/bot${bot_token}/sendMessage?chat_id=${chat_id}&text=${content}&parse_mode=html`
     )
     .then((res) => {
       console.log(res.data);
